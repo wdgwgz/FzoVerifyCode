@@ -17,6 +17,6 @@ return [
         'day_num'           => 5, # 当天 同一个 type 发送最大条数
         'intervals'         => 60, # 两条短信间隔时间 单位：秒
         'expire_second'     => 300, # 过期时间
-        'templete_code'     => 'SMS_181295085' , # 默认发送 模板
+        'templete_code'     => '' , # 默认发送 模板
     ],
 ];
