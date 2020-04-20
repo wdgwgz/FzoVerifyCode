@@ -1,0 +1,24 @@
+{
+    "name": "gemor/fzo",
+    "description": "",
+    "keywords": [],
+    "license": "MIT",
+    "require": {
+        "php": ">5.3",
+        "mrgoon/aliyun-sms-sdk": "1.1.*",
+        "nesbot/carbon": "^2.17"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Gemor\\Fzo\\ServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Fzo": "src/"
+        }
+    }
+}
