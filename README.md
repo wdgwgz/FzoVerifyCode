@@ -1,5 +1,6 @@
 ## 基于 阿里云短信 验证的 业务类
 ## Table
+``` mysql
 CREATE TABLE `verify_code` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `phone` varchar(255) NOT NULL COMMENT '手机号',
@@ -12,3 +13,5 @@ CREATE TABLE `verify_code` (
   PRIMARY KEY (`id`),
   KEY `phone` (`phone`(191)) USING BTREE COMMENT '手机号索引'
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+
+```
