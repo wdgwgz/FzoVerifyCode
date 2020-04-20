@@ -1,4 +1,7 @@
 ## 基于 阿里云短信 验证的 业务类
+
+## 安装
+
 ## Table
 ``` mysql
 CREATE TABLE `verify_code` (
