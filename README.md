@@ -1,11 +1,6 @@
 
 ## 基于 阿里云短信 验证的 业务类
 
-## 安装
-
-## Table
-
-## 基于阿里云短信发送的 业务扩展
 
 ## 安装
 
@@ -21,7 +16,6 @@ php artisan vendor:publish --provider="Fzo\ServiceProvider"
 
 数据库创建(手动创建一下吧)
 ```
->>>>>>> 07d6d0306a3d1229d9ab0d7689710d64ba8061b4
 CREATE TABLE `verify_code` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `phone` varchar(255) NOT NULL COMMENT '手机号',
