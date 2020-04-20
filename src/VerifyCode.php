@@ -9,11 +9,7 @@
 
 namespace Fzo;
 
-use App\User;
 use Carbon\Carbon;
-use Illuminate\Auth\Events\Validated;
-use Illuminate\Support\Facades\Validator;
-use Mockery\Expectation;
 
 class VerifyCode {
 
