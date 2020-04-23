@@ -27,7 +27,8 @@ CREATE TABLE `verify_code` (
   `response` text,
   PRIMARY KEY (`id`),
   KEY `phone` (`phone`(191)) USING BTREE COMMENT '手机号索引'
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COMMENT='短信验证码';
+
 ```
 
 
